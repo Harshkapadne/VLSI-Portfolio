@@ -1,0 +1,10 @@
+# Simulation waveforms and compiled outputs
+*.vcd
+*.vvp
+*_sim
+*_sim.exe
+mux_check
+
+# Temporary files
+*~
+*.tmp

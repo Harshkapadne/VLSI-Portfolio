@@ -1,0 +1,18 @@
+# Simulation outputs
+*.vcd
+*.vvp
+*_sim
+*_sim.exe
+mux_check
+
+# Temporary files
+*~
+# Simulation outputs
+*.vcd
+*.vvp
+*_sim
+*_sim.exe
+mux_check
+
+# Temporary files
+*~
