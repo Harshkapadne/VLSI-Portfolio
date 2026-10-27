@@ -4,7 +4,7 @@
 **Primary Language:** Verilog HDL  
 **Simulation Tools:** Icarus Verilog and GTKWave  
 **Development Environment:** VS Code, WSL Ubuntu, Git  
-**Progress Period:** Days 1–10
+**Progress Period:** Day 1 onward
 
 ---
 
@@ -120,7 +120,7 @@
 
 **Outcome:** Practised fault detection, testbench improvement, debugging, and source-control organization.
 
-**## Day 11 — D Flip-Flop with Asynchronous Reset**
+## Day 11 — D Flip-Flop with Asynchronous Reset
 
 **Practical work**
 - Designed a D flip-flop using Verilog HDL.
@@ -135,9 +135,9 @@
 
 **Outcome:** Successfully designed and verified a D flip-flop with an active-low asynchronous reset.
 
-**## Day 12 — 4-bit Register with Synchronous Reset**
+## Day 12 — 4-bit Register with Synchronous Reset
 
-**=Practical work=**
+**Practical work**
 - Designed a 4-bit register using Verilog HDL.
 - Implemented an active-high synchronous reset.
 - Used `always @(posedge clk)` to describe the register's behavior.
@@ -154,7 +154,7 @@
 
 ## Tools and Skills Practised
 
-- **Verilog HDL:** Combinational logic, MUXes, decoders, procedural blocks, `if/else`, and `case`.
+- **Verilog HDL:** Combinational logic, MUXes, decoders, procedural blocks, flip-flops, registers, `if/else`, and `case`.
 - **Verification:** Testbenches, input combinations, expected outputs, PASS/FAIL reporting, and error counters.
 - **Simulation:** Icarus Verilog.
 - **Waveform analysis:** GTKWave and VCD files.
@@ -172,4 +172,4 @@
 
 ---
 
-**Current milestone:** Completed foundational digital logic exercises and five introductory Verilog projects, with simulation, testbench development, debugging, and local Git version control.
+**Current milestone:** Progressing through RTL Design and Verification fundamentals, with hands-on experience in combinational logic, Verilog HDL, sequential circuits, testbench development, simulation, waveform analysis, debugging, and Git/GitHub portfolio management.
