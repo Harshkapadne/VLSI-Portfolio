@@ -120,6 +120,36 @@
 
 **Outcome:** Practised fault detection, testbench improvement, debugging, and source-control organization.
 
+**## Day 11 — D Flip-Flop with Asynchronous Reset**
+
+**Practical work**
+- Designed a D flip-flop using Verilog HDL.
+- Implemented an active-low asynchronous reset.
+- Used `always @(posedge clk or negedge rst_n)` for sequential logic.
+- Created a testbench to verify the flip-flop's operation.
+- Simulated the design using Icarus Verilog.
+- Inspected the output waveforms using GTKWave.
+- Created README documentation for the project.
+
+**Verification result:** All five test cases passed.
+
+**Outcome:** Successfully designed and verified a D flip-flop with an active-low asynchronous reset.
+
+**## Day 12 — 4-bit Register with Synchronous Reset**
+
+**=Practical work=**
+- Designed a 4-bit register using Verilog HDL.
+- Implemented an active-high synchronous reset.
+- Used `always @(posedge clk)` to describe the register's behavior.
+- Created a testbench to verify reset, data capture, and data retention.
+- Simulated the design using Icarus Verilog.
+- Inspected the output waveforms using GTKWave.
+- Created README documentation for the project.
+
+**Verification result:** All five test cases passed.
+
+**Outcome:** Successfully designed and verified a 4-bit register with an active-high synchronous reset.
+
 ---
 
 ## Tools and Skills Practised
