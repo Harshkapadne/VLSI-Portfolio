@@ -150,6 +150,24 @@
 
 **Outcome:** Successfully designed and verified a 4-bit register with an active-high synchronous reset.
 
+## Day 13 — 4-bit Up-Counter
+
+**Practical work**
+
+- Designed a 4-bit synchronous up-counter using Verilog HDL.
+- Implemented an active-high synchronous reset.
+- Verified counter incrementing on positive clock edges using `@(posedge clk)`.
+- Tested value retention between clock edges.
+- Verified overflow from `1111` to `0000`.
+- Tested reset operation during counting.
+- Simulated the design using Icarus Verilog.
+- Inspected clock, reset, and counter waveforms using GTKWave.
+- Created README documentation for the project.
+
+**Verification result:** All five test cases passed.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous up-counter with an active-high synchronous reset.
+
 ---
 
 ## Tools and Skills Practised
