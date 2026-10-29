@@ -168,6 +168,22 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous up-counter with an active-high synchronous reset.
 
+## Day 14 — 4-bit Down-Counter
+
+**Practical Work**
+- Designed a 4-bit synchronous down-counter using Verilog HDL.
+- Implemented an active-high synchronous reset.
+- Verified decrementing on positive clock edges.
+- Tested the transition from `0000` to `1111`.
+- Verified multiple decrements using expected-value comparisons.
+- Simulated the design using Icarus Verilog.
+- Generated a VCD waveform for GTKWave inspection.
+- Created project documentation in README.md.
+
+**Verification Result:** All test cases passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous down-counter.
+
 ---
 
 ## Tools and Skills Practised
