@@ -184,6 +184,24 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous down-counter.
 
+## Day 15 — 4-bit Up/Down Counter
+
+**Practical Work**
+- Designed a configurable 4-bit up/down counter using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Implemented direction selection using `up_down`.
+- Verified upward and downward counting.
+- Tested overflow and underflow.
+- Verified direction switching.
+- Tested that changing direction does not immediately change the counter output.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** To be updated after successful simulation.
+
+**Outcome:** Designed and verified a configurable 4-bit synchronous up/down counter.
+
 ---
 
 ## Tools and Skills Practised
