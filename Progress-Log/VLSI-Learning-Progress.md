@@ -202,6 +202,24 @@
 
 **Outcome:** Designed and verified a configurable 4-bit synchronous up/down counter.
 
+## Day 16 — 4-bit SIPO Shift Register
+
+**Practical Work**
+- Studied the four types of shift registers: SISO, SIPO, PISO, and PIPO.
+- Designed a 4-bit Serial-In Parallel-Out shift register using Verilog HDL.
+- Implemented an active-high synchronous reset.
+- Implemented right shifting using concatenation.
+- Verified serial data entering through the MSB.
+- Tested multiple consecutive shift operations.
+- Verified that changing the serial input does not immediately change the output.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All test cases passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous SIPO shift register.
+
 ---
 
 ## Tools and Skills Practised
