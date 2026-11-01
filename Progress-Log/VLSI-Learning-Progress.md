@@ -220,6 +220,26 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous SIPO shift register.
 
+## Day 17 — 4-bit SISO Shift Register
+
+**Practical Work**
+- Studied Serial-In Serial-Out shift-register architecture.
+- Designed a 4-bit SISO right-shift register using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Used an internal 4-bit register for data storage.
+- Connected the serial output to the LSB.
+- Verified serial data propagation through four flip-flops.
+- Tested the four-clock-cycle data delay.
+- Verified that changing serial input does not immediately change the register.
+- Checked both internal register values and external serial output.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All test cases passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous SISO shift register.
+
 ---
 
 ## Tools and Skills Practised
