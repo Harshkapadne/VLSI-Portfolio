@@ -240,6 +240,27 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous SISO shift register.
 
+## Day 18 — 4-bit PISO Shift Register
+
+**Practical Work**
+- Studied Parallel-In Serial-Out shift-register architecture.
+- Designed a 4-bit PISO right-shift register using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Implemented parallel loading of four bits simultaneously.
+- Implemented serial transmission using right shifting.
+- Connected the serial output to the LSB.
+- Verified LSB-first serial data transmission.
+- Tested loading and shifting operations.
+- Verified no immediate loading when load is inactive.
+- Tested reset priority over parallel loading.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All test cases passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous PISO shift register.
+
 ---
 
 ## Tools and Skills Practised
