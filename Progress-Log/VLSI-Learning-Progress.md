@@ -261,6 +261,26 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous PISO shift register.
 
+## Day 19 — 4-bit Bidirectional Shift Register
+
+**Practical Work**
+- Designed a 4-bit bidirectional shift register using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Implemented right shifting using concatenation.
+- Implemented left shifting using concatenation.
+- Added direction control to select the shifting operation.
+- Verified serial input entering through both MSB and LSB.
+- Tested switching between right-shift and left-shift operations.
+- Verified that changing direction does not immediately change the register.
+- Verified that changing serial input does not immediately change the register.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All ten verification scenarios passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit synchronous bidirectional shift register.
+
 ---
 
 ## Tools and Skills Practised
