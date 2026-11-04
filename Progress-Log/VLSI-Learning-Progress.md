@@ -281,6 +281,35 @@
 
 **Outcome:** Successfully designed and verified a 4-bit synchronous bidirectional shift register.
 
+## Day 20 — Universal Shift Register, Revision and Debugging
+
+**Practical Work**
+- Revised counters and shift registers covered during Days 13–19.
+- Designed a 4-bit universal shift register using Verilog HDL.
+- Implemented HOLD, right shift, left shift, and parallel-load operations.
+- Used a 2-bit mode signal for operation selection.
+- Implemented active-high synchronous reset.
+- Developed a verification testbench for all four operating modes.
+- Verified mode-change retention and reset priority.
+- Performed fault injection and debugging.
+
+**Fault Injection Results**
+- Bug 1: Swapped left and right operations — detected.
+- Bug 2: Swapped HOLD and PARALLEL LOAD — detected.
+- Bug 3: Incorrect reset priority — detected.
+- Identified the failing tests and understood the causes.
+- Restored the correct RTL and performed final simulation.
+
+**Tools Used**
+- Icarus Verilog
+- GTKWave
+- VS Code
+- Git and GitHub
+
+**Verification Result:** Original verification tests passed after restoring the correct RTL. All three injected faults were detected.
+
+**Outcome:** Successfully designed and verified a universal shift register and practiced systematic RTL fault injection and debugging.
+
 ---
 
 ## Tools and Skills Practised
