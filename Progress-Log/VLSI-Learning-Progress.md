@@ -310,6 +310,28 @@
 
 **Outcome:** Successfully designed and verified a universal shift register and practiced systematic RTL fault injection and debugging.
 
+## Day 21 — Mod-10 Synchronous Counter
+
+**Practical Work**
+- Studied synchronous and asynchronous counters.
+- Learned the concept of Mod-N counters.
+- Calculated flip-flop requirements using the logarithmic formula.
+- Designed a 4-bit Mod-10 synchronous counter using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Implemented terminal-count detection at decimal 9.
+- Verified counting from 0 to 9.
+- Tested rollover from `1001` to `0000`.
+- Verified reset during counting.
+- Tested value retention between clock edges.
+- Performed fault injection by changing the terminal count from 9 to 8.
+- Identified premature rollover through simulation failures.
+- Restored the correct RTL design.
+- Simulated using Icarus Verilog and inspected GTKWave waveforms.
+
+**Verification Result:** Original testbench passed after restoring the correct terminal-count condition. The intentional terminal-count fault was detected.
+
+**Outcome:** Successfully designed and verified a 4-bit Mod-10 synchronous counter and practiced systematic debugging.
+
 ---
 
 ## Tools and Skills Practised
