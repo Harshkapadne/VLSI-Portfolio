@@ -332,6 +332,28 @@
 
 **Outcome:** Successfully designed and verified a 4-bit Mod-10 synchronous counter and practiced systematic debugging.
 
+## Day 22 — Divide-by-10 Frequency Divider
+
+**Practical Work**
+- Studied clock frequency and time period.
+- Understood frequency division using counters.
+- Designed a divide-by-10 frequency divider using Verilog HDL.
+- Implemented a 3-bit internal counter.
+- Implemented terminal-count detection at decimal 4.
+- Generated output clock transitions after every five input clock cycles.
+- Verified output frequency and 50% duty cycle.
+- Tested synchronous reset.
+- Verified output clock toggling.
+- Tested value retention between clock edges.
+- Verified reset during operation.
+- Simulated using Icarus Verilog.
+- Inspected clock waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All testbench checks passed in simulation.
+
+**Outcome:** Successfully designed and verified a divide-by-10 synchronous clock divider.
+
 ---
 
 ## Tools and Skills Practised
