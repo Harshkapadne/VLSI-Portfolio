@@ -354,6 +354,28 @@
 
 **Outcome:** Successfully designed and verified a divide-by-10 synchronous clock divider.
 
+## Day 23 — 4-bit Register with Clock Enable
+
+**Practical Work**
+- Studied clock-enable functionality.
+- Understood the difference between clock enable and clock gating.
+- Studied the role of clock gating in dynamic power reduction.
+- Learned about glitch-free clock gating and integrated clock-gating cells.
+- Designed a 4-bit synchronous register with clock enable using Verilog HDL.
+- Implemented active-high synchronous reset.
+- Implemented conditional data loading using the enable signal.
+- Verified data retention when enable is inactive.
+- Tested changing input data while enable is inactive.
+- Verified reset priority over enable.
+- Tested register behavior between clock edges.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All testbench checks passed in simulation.
+
+**Outcome:** Successfully designed and verified a 4-bit register with clock enable and understood fundamental clock-gating concepts.
+
 ---
 
 ## Tools and Skills Practised
