@@ -376,6 +376,33 @@
 
 **Outcome:** Successfully designed and verified a 4-bit register with clock enable and understood fundamental clock-gating concepts.
 
+## Day 24 — Vending Machine FSM (Moore FSM)
+
+**Practical Work**
+- Studied the fundamentals of Finite State Machines (FSMs).
+- Understood the difference between Moore and Mealy FSMs.
+- Studied current-state and next-state logic.
+- Learned binary state encoding and state representation.
+- Designed a vending machine FSM using Verilog HDL.
+- Implemented three states: IDLE, HAVE_5, and DISPENSE.
+- Designed the vending machine to accept two ₹5 coins for a ₹10 item.
+- Implemented sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Implemented Moore output logic for the dispense signal.
+- Implemented active-high synchronous reset.
+- Verified normal vending-machine transactions.
+- Tested automatic return to IDLE after dispensing.
+- Verified reset during the HAVE_5 state.
+- Verified reset during the DISPENSE state.
+- Verified internal FSM states and external output using a testbench.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** Testbench verification completed for normal transactions, state transitions, output behavior, and reset conditions.
+
+**Outcome:** Successfully designed and verified a Moore FSM-based vending machine and understood the fundamentals of FSM design, state transitions, and sequential and combinational logic separation.
+
 ---
 
 ## Tools and Skills Practised
