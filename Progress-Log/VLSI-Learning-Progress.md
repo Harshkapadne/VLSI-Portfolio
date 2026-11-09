@@ -403,6 +403,32 @@
 
 **Outcome:** Successfully designed and verified a Moore FSM-based vending machine and understood the fundamentals of FSM design, state transitions, and sequential and combinational logic separation.
 
+## Day 25 — Traffic Light Controller using FSM
+
+**Practical Work**
+- Studied the implementation of a traffic light controller using FSM.
+- Designed a Moore FSM for a two-road intersection (North-South and East-West).
+- Implemented four states: NS_GREEN, NS_YELLOW, EW_GREEN, and EW_YELLOW.
+- Implemented 2-bit binary state encoding.
+- Designed sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Implemented Moore output logic for six traffic-light control signals.
+- Used `timer_done` as the state-transition control input.
+- Implemented active-high synchronous reset.
+- Verified state retention when `timer_done` is inactive.
+- Verified transitions between all four FSM states.
+- Tested transition from EW_YELLOW back to NS_GREEN.
+- Verified reset during the EW_GREEN state.
+- Verified reset priority over normal state transitions.
+- Verified internal FSM states and external traffic-light outputs.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All testbench checks passed in simulation.
+
+**Outcome:** Successfully designed and verified a four-state Moore FSM-based traffic light controller and understood timer-controlled state transitions, output decoding, and synchronous reset behavior.
+
 ---
 
 ## Tools and Skills Practised
