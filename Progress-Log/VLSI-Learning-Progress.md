@@ -429,6 +429,32 @@
 
 **Outcome:** Successfully designed and verified a four-state Moore FSM-based traffic light controller and understood timer-controlled state transitions, output decoding, and synchronous reset behavior.
 
+## Day 26 — Serial Sequence Detector using Mealy FSM
+
+**Practical Work**
+- Studied the fundamentals of Mealy FSM architecture.
+- Understood the difference between Moore and Mealy FSMs.
+- Designed a serial sequence detector for the binary pattern `1011`.
+- Implemented four FSM states: S0, S1, S2, and S3.
+- Implemented 2-bit binary state encoding.
+- Designed sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Implemented Mealy output logic using the current state and serial input.
+- Implemented active-high synchronous reset.
+- Verified detection of the sequence `1011`.
+- Tested non-detection using input sequences `0000` and `1010`.
+- Implemented and verified overlapping sequence detection using `1011011`.
+- Tested reset during partial sequence detection.
+- Verified internal FSM states and external detection output.
+- Studied Mealy output behavior between positive clock edges.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All testbench checks passed in simulation.
+
+**Outcome:** Successfully designed and verified a Mealy FSM-based serial sequence detector for the pattern `1011`, understood overlapping sequence detection, and learned the timing differences between Mealy and Moore FSM outputs.
+
 ---
 
 ## Tools and Skills Practised
