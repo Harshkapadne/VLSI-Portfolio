@@ -455,6 +455,33 @@
 
 **Outcome:** Successfully designed and verified a Mealy FSM-based serial sequence detector for the pattern `1011`, understood overlapping sequence detection, and learned the timing differences between Mealy and Moore FSM outputs.
 
+## Day 27 — Serial Sequence Detector using Moore FSM
+
+**Practical Work**
+- Studied the implementation of a serial sequence detector using Moore FSM.
+- Compared Moore and Mealy FSM architectures.
+- Designed a serial sequence detector for the binary pattern `1011`.
+- Implemented five FSM states: S0, S1, S2, S3, and S4.
+- Implemented 3-bit binary state encoding.
+- Designed sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Implemented Moore output logic based only on the current state.
+- Implemented active-high synchronous reset.
+- Verified detection of the sequence `1011`.
+- Tested non-detection using input sequences `0000` and `1010`.
+- Implemented overlapping sequence detection using `1011011`.
+- Tested reset during partial sequence detection.
+- Verified internal FSM state transitions and external detection output.
+- Compared Mealy and Moore output timing.
+- Developed reusable testbench tasks for state and output verification.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** All testbench checks passed in simulation.
+
+**Outcome:** Successfully designed and verified a five-state Moore FSM-based serial sequence detector for the pattern `1011`, understood overlapping sequence detection, and learned the differences between Moore and Mealy FSM architectures and their output timing.
+
 ---
 
 ## Tools and Skills Practised
