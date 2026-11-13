@@ -482,6 +482,34 @@
 
 **Outcome:** Successfully designed and verified a five-state Moore FSM-based serial sequence detector for the pattern `1011`, understood overlapping sequence detection, and learned the differences between Moore and Mealy FSM architectures and their output timing.
 
+## Day 28 — Serial Sequence Detector using One-Hot FSM
+
+**Practical Work**
+- Studied One-Hot state encoding in Finite State Machines.
+- Compared binary and One-Hot state encoding techniques.
+- Designed a serial sequence detector for the binary pattern `1011` using One-Hot encoding.
+- Implemented five FSM states: S0, S1, S2, S3, and S4.
+- Implemented five-bit One-Hot state representation.
+- Designed sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Implemented Moore output logic based only on the current state.
+- Implemented active-high synchronous reset.
+- Verified all ten state transitions.
+- Verified successful detection of the sequence `1011`.
+- Tested non-detection using input sequences `0000` and `1010`.
+- Verified overlapping sequence detection using `1011011`.
+- Tested reset during partial sequence detection.
+- Implemented One-Hot state validity checking in the testbench.
+- Verified both current-state and next-state One-Hot encoding.
+- Used reusable Verilog tasks for state, output, and reset verification.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** Testbench verification completed for sequence detection, overlapping detection, reset behavior, and One-Hot state validity.
+
+**Outcome:** Successfully designed and verified a five-state Moore FSM-based serial sequence detector using One-Hot encoding and understood the differences between binary and One-Hot state representation, including their flip-flop requirements and state-decoding trade-offs.
+
 ---
 
 ## Tools and Skills Practised
