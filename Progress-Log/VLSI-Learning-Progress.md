@@ -510,6 +510,35 @@
 
 **Outcome:** Successfully designed and verified a five-state Moore FSM-based serial sequence detector using One-Hot encoding and understood the differences between binary and One-Hot state representation, including their flip-flop requirements and state-decoding trade-offs.
 
+## Day 29 — UART Transmitter using FSM and Shift Register
+
+**Practical Work**
+- Studied UART asynchronous serial communication.
+- Understood the UART 8-N-1 frame format.
+- Designed an 8-bit UART transmitter using Verilog HDL.
+- Implemented four FSM states: IDLE, START, DATA, and STOP.
+- Implemented 2-bit binary state encoding.
+- Designed sequential state-transition logic using a positive-edge-triggered clock.
+- Implemented combinational next-state logic using `always @(*)`.
+- Designed an 8-bit shift register for parallel-to-serial data conversion.
+- Implemented LSB-first serial data transmission.
+- Designed a 3-bit bit counter to track eight data bits.
+- Used an external `baud_tick` input for bit-period timing.
+- Implemented start-bit and stop-bit transmission.
+- Implemented the `tx` serial output.
+- Implemented the `busy` transmission status output.
+- Implemented a one-system-clock-cycle `tx_done` completion pulse.
+- Verified transmission of different 8-bit data values.
+- Tested behavior when a new start request occurs during an active transmission.
+- Tested synchronous reset during active transmission.
+- Simulated using Icarus Verilog.
+- Inspected waveforms using GTKWave.
+- Created project documentation.
+
+**Verification Result:** UART frame transmission, LSB-first shifting, bit counter progression, status signals, and reset behavior were exercised in simulation and inspected using GTKWave.
+
+**Outcome:** Successfully designed and verified an FSM-controlled UART transmitter and understood the integration of an FSM, shift register, and bit counter for parallel-to-serial communication.
+
 ---
 
 ## Tools and Skills Practised
