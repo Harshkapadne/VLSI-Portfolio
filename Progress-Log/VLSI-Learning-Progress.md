@@ -539,6 +539,24 @@
 
 **Outcome:** Successfully designed and verified an FSM-controlled UART transmitter and understood the integration of an FSM, shift register, and bit counter for parallel-to-serial communication.
 
+## Day 30 — UART Receiver using FSM and Shift Register
+
+**Practical Work**
+
+- Designed a four-state Moore FSM with IDLE, START, DATA, and STOP states.
+- Implemented start-bit validation and false-start detection.
+- Designed an 8-bit shift register to receive serial data in LSB-first order.
+- Implemented a bit counter to track the eight received data bits.
+- Implemented `rx_valid` to indicate successful reception.
+- Implemented `framing_error` to detect an invalid stop bit.
+- Implemented the `busy` output to indicate active reception.
+- Created a self-checking testbench with nine verification scenarios.
+- Inspected simulation waveforms using GTKWave.
+
+**Verification Result:** All nine test scenarios passed successfully, covering reset, idle operation, reception of `8'hA5`, `8'h3C`, `8'h00`, and `8'hFF`, false-start detection, framing-error detection, and reset during DATA reception.
+
+**Outcome:** Successfully designed and verified an 8-bit UART receiver using an FSM and shift register. Understood serial-to-parallel conversion, LSB-first reception, start-bit validation, and framing-error detection.
+
 ---
 
 ## Tools and Skills Practised
